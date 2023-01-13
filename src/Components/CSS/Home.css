@@ -1,0 +1,184 @@
+.home-sec-1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+
+.label{
+    position: fixed;
+    top:10px;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(0, 2, 123);
+    text-transform: uppercase;
+    left: 100px;
+    z-index: 2;
+}
+
+.nav-cont{
+    width: 500px;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    font-size: 15px;
+    right: 0;
+    display: flex;
+    color: rgb(117, 117, 117);
+    align-items: flex-end;
+}
+
+.nav-item{
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    color: black;
+}
+
+.nav-item-ls{
+    position: absolute;
+    right: 50px;
+    top: -10px;
+    margin-left: 50px;
+    padding: 10px;
+    background-color: rgba(0, 2, 123, 0.971);
+    border-radius: 20px;
+    color: azure;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-item-ls:hover{
+    transform: scale(1.05);
+}
+
+.tagline-1 {
+    position: absolute;
+    font-size: 60px;
+    color: rgb(0, 2, 123);
+    bottom: 100px;
+    left: 90px;
+}
+
+.tagline-2 {
+    position: absolute;
+    font-size: 40px;
+    color: rgb(0, 2, 123);
+    bottom: 70px;
+    left: 90px;
+}
+
+.document{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    width: 45%;
+}
+
+.loginprompt{
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    height: 200px;
+    width: 400px;
+    background-color:rgb(0, 2, 123);
+    border-radius: 20px;
+    border: 1px solid white;
+    z-index: 3;
+}
+
+.internal{
+    height: 195px;
+    width: 350px;
+    margin: auto;
+    background-color:rgb(0, 2, 123);
+    border-radius: 20px;
+    border: 3px solid white;
+    z-index: 3;
+}
+
+
+
+.inputem{
+    padding-left:10px;
+    margin-top: 5px;
+    color:rgb(0, 2, 123);
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0px;
+    font-size: 16px;
+}
+
+.paddin{
+    margin-top: 35px;
+}
+
+.login{
+    right: 40px;
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    color: aliceblue;
+    background-color: aqua;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.551);
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.login:hover{
+    background-color: rgb(0, 2, 123);
+
+}
+
+@media  (max-width: 1200px) {
+    .label{
+        position: absolute;
+        top:10px;
+        left: 30px;
+    }
+
+    .nav-item{
+        display: none;
+    }
+
+    .nav-cont{
+        width: 80%; 
+    }
+
+    .nav-item-ls{
+        position: absolute;
+        right: 30px;
+        top: -3px;
+    }
+
+    .document{
+        bottom: 40%;
+        left: 20px;
+        width: 50%;
+    }
+
+    .tagline-1 {
+        top: 75%;
+        left: 20px;
+        font-size: 50px;
+    }
+
+    .tagline-2 {
+        top: 85%;
+        left: 20px;
+        font-size: 40px;
+    }
+}
